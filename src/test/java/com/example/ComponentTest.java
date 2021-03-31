@@ -12,7 +12,7 @@ import static org.assertj.core.api.Assumptions.assumeThat;
 class ComponentTest {
 
     @Test
-    void testComponentAsKey() {
+    void shouldComponentBeAKeyInMap() {
         // given
         final String value = "value";
         final Component component = new Component("s", 1, new Date());

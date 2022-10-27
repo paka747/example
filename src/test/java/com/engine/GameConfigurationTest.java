@@ -12,7 +12,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 @ExtendWith(SpringExtension.class)
 class GameConfigurationTest {
 
-  @Autowired
   private GameEngine gameEngine;
 
   @Test

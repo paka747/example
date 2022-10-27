@@ -13,11 +13,11 @@ class Fruit {
     this.amount = amount;
   }
 
-  public String name() {
+  public String getName() {
     return name;
   }
 
-  public int amount() {
+  public int getAmount() {
     return amount;
   }
 

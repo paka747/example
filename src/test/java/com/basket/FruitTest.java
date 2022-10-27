@@ -9,14 +9,15 @@ import static org.assertj.core.api.Assertions.assertThat;
 class FruitTest {
 
   /**
-   * Gather letters, which fulfill condition:
+   * Replace  emptySet() with an implementation that satisfies the following conditions
    * - both baskets are used
-   * - first fruit name letter
    * - fruit amount in basket is odd
-   * - are uppercase
-   * - are unique
-   * - are sorted
+   * - get first fruit name letter
+   * - letters are uppercase
+   * - letters are unique
+   * - letters are sorted in natural order
    */
+
   @Test
   void shouldFindLetters() {
     // given

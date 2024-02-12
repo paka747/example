@@ -11,7 +11,7 @@ class FruitTest {
   /**
    * Replace  emptySet() with an implementation that satisfies the following conditions
    * - both baskets are used
-   * - fruit amount in basket is odd
+   * - only consider fruits with odd amount
    * - get first fruit name letter
    * - letters are uppercase
    * - letters are unique

@@ -8,6 +8,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class CatTest {
 
+    CatCalculator calculator = new CatCalculator();
+
+    // This test is just an example. Feel free to modify/add more. You can also use spock.
     @Test
     public void shouldCalculateTotalFoodCost() {
         // given
@@ -33,17 +36,10 @@ public class CatTest {
         );
 
         // when
-        double totalCost = calculateTotalFoodCost(cats);
+        double totalCost = calculator.calculateTotalFoodCost(cats);
 
         // then
         assertThat(totalCost).isEqualTo(2.23);
     }
 
-    double calculateTotalFoodCost(List<Cat> cats) {
-        // TODO implement me
-        // calculate total cost to feed the cats
-        // for each cat select the cheapest food
-        // do not feed cats that cost more than 20 to feed
-        return 0;
-    }
 }

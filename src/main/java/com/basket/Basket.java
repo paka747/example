@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.Objects;
 import java.util.stream.Stream;
 
-class Basket {
+public class Basket {
 
   private final Collection<Fruit> fruits;
 

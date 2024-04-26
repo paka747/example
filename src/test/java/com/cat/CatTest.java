@@ -8,9 +8,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class CatTest {
 
-    CatCalculator calculator = new CatCalculator();
+     CatCalculator calculator = new CatCalculator();
+//    CatCalculatorKt calculator = new CatCalculatorKt();
 
-    // This test is just an example. Feel free to modify/add more. You can also use spock.
     @Test
     public void shouldCalculateTotalFoodCost() {
         // given

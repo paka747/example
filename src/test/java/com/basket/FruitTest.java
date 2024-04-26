@@ -9,7 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class FruitTest {
 
   FruitProcessor processor = new FruitProcessor();
-  //FruitProcessor processor = new FruitProcessorKt();
+//  FruitProcessorKt processor = new FruitProcessorKt();
 
   @Test
   void shouldFindLetters() {

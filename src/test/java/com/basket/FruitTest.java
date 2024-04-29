@@ -8,15 +8,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class FruitTest {
 
-  /**
-   * Replace  emptySet() with an implementation that satisfies the following conditions
-   * - both baskets are used
-   * - only consider fruits with odd amount
-   * - get first fruit name letter
-   * - letters are uppercase
-   * - letters are unique
-   * - letters are sorted in natural order
-   */
+  FruitProcessor processor = new FruitProcessor();
+//  FruitProcessorKt processor = new FruitProcessorKt();
 
   @Test
   void shouldFindLetters() {
@@ -35,7 +28,7 @@ class FruitTest {
         new Fruit("plum", 2));
 
     // when
-    Collection<String> result = emptySet();
+    Collection<String> result = processor.process(left, right);
 
     // then
     assertThat(result).containsExactly("A", "B", "P");

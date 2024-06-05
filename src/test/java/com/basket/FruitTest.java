@@ -8,8 +8,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class FruitTest {
 
-  FruitProcessor processor = new FruitProcessor();
+//  FruitProcessor processor = new FruitProcessor();
 //  FruitProcessorKt processor = new FruitProcessorKt();
+  FruitProcessorScala processor = new FruitProcessorScala();
 
   @Test
   void shouldFindLetters() {
